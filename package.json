@@ -1,0 +1,28 @@
+{
+  "name": "testes",
+  "version": "1.0.0",
+  "description": "npm init -y -> para criar o package.json npm install --save-dev jest -> instalar o jest Colocar o nome da ferramente no scripts do package json -> \"scripts\": {   \"test\": \"jest\" }",
+  "main": "Teste.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnnyaGoc/Testes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EnnyaGoc/Testes/issues"
+  },
+  "homepage": "https://github.com/EnnyaGoc/Testes#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "react": "^19.1.0"
+  }
+}
